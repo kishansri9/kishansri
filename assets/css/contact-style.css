@@ -1,0 +1,124 @@
+/* contact section  hiding  */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  font-family: "Roboto", sans-serif;
+}
+/* headline   */
+
+.contact .headline {
+  color: #15587d;
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: -3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: normal;
+  text-align: center;
+}
+.contact .bio {
+  color: #15587d;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: normal;
+  padding: 50px;
+  line-height: 40px;
+}
+/* form  */
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 50px;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+input[type="submit"]:hover {
+  background-color: #15587d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.contact-copy {
+  color: #15587d;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: normal;
+  padding: 50px;
+  line-height: 40px;
+}
+
+/* Mobile Styles */
+@media screen and (min-width: 360px) and (max-width: 760px) {
+  /* Home Section Styles */
+  .body
+  {
+    color: #15587d;
+  }
+  .home .home-content {
+    text-align: center;
+    justify-content: safe;
+  }
+
+  .text {
+    margin-bottom: 5vw;
+  }
+  .home .text-two {
+    font-size: 24px;
+    color: #ff900d;
+  }
+
+  /* Tagline Section Styles */
+  .contact {
+    padding: 1vw;
+    text-align: center;
+    font-size: 12px;
+  }
+  .contact .headline {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact .contact-copy {
+    font-size: 16px;
+    line-height: normal;
+    padding: 3vw;
+  }
+  nav {
+    position: relative;
+    width: 100%;
+  }
+}

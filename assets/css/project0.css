@@ -1,0 +1,81 @@
+/* project section   styling */
+.project {
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  color: #15587d;
+}
+/* card   styling */
+div.card {
+  margin: 10%;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+}
+div.card img {
+  max-width: 100%;
+  
+  margin: 50px 0;
+}
+.project-bio {
+  font-size: 24px;
+  line-height: 40px;
+}
+.description {
+  
+  padding-top: 30px;
+  line-height: 25px;
+}
+.uxaudit
+{
+  padding-top: -50px;
+}
+h3,
+h2 {
+  padding-top: 30px;
+}
+p {
+  font-size: 18px;
+}
+/* mobile responsive */
+@media (min-width: 360px) and (max-width: 760px) {
+  body {
+    font-size: 16px;
+    color: #15587d;
+  }
+  /* navbar */
+  .nav {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: Helvetica, sans-serif;
+  }
+  nav .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  div.card {
+    margin-top: 150px;
+  }
+  div.card img {
+    height: 200px;
+  }
+  nav .navbar .menu {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+
+  nav .navbar .menu li {
+    margin-bottom: 10px;
+  }
+
+  nav .navbar .menu a {
+    font-size: 1.2em;
+  }
+}

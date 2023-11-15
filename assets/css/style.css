@@ -1,0 +1,213 @@
+/* body styling */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  
+}
+
+/* navbar styling */
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: Helvetica, sans-serif;
+  color: #15587d;
+}
+nav .navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  color: #15587d;
+}
+nav .navbar .logo a {
+  font-size: 35px;
+  color: #15587d;
+}
+nav .navbar .menu {
+  display: flex;
+  position: relative;
+  color: #15587d;
+}
+nav .navbar .menu li {
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0e2431;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+/* navbar hover styling */
+.navbar .menu a:hover {
+  color: #ff900d;
+  filter: drop-shadow(-2px 11px 7px #c6c3c3);
+}
+/* home section styling */
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("./images/cover.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .home-content {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #15587d;
+}
+a
+{
+  color: #15587d;
+}
+.home .text {
+  font-size: 18px;
+  color: #15587d;
+}
+.home .text-two {
+  color: #15587d;
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: -3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: normal;
+}
+.text-four {
+  font-size: 14px;
+}
+
+.home .button {
+  margin: 14px 0;
+}
+/* linkedin button  styling */
+.linkedin {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #15587d;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+/* linkedin hover styling */
+.linkedin:hover {
+  border-color: #15587d;
+  background-color: #fff;
+  color: #15587d;
+}
+/* resume button styling */
+.home .button button {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #15587d;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+/* resume button hover styling */
+.home .button button:hover {
+  border-color: #15587d;
+  background-color: #fff;
+  color: #15587d;
+}
+/* tagline  styling */
+.tagline {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #15587d;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: normal;
+  margin-top: -250px;
+  padding: 50px;
+}
+
+/* Mobile Styles */
+@media screen and (min-width: 360px) and (max-width: 760px) {
+  /* Navbar Styles */
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw;
+  }
+
+  .logo {
+    margin-bottom: 2vw;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu li {
+    margin: 1vw 0;
+  }
+
+  .menu a {
+    text-decoration: none;
+  }
+
+  /* Home Section Styles */
+  .home .home-content {
+    text-align: center;
+    justify-content: safe;
+  }
+
+  .text {
+    margin-bottom: 5vw;
+  }
+  .home .text-two {
+    font-size: 24px;
+    color: #ff900d;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home .button button {
+    font-size: 16px;
+  }
+  button {
+    margin-bottom: 2vw;
+  }
+
+  .linkedin {
+    font-size: 4vw;
+    margin-top: 2vw;
+  }
+
+  /* Tagline Section Styles */
+  .tagline {
+    padding: 15vw;
+    text-align: center;
+    font-size: 16px;
+  }
+}
