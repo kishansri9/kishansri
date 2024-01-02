@@ -7,7 +7,8 @@
 }
 /* headline  */
 .about .headline {
-  color: #15587d;
+  color:#00456b;
+  ;
   font-size: 60px;
   font-weight: 600;
   margin-left: -3px;
@@ -21,7 +22,7 @@
   text-align: left;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: bolder;
   line-height: normal;
   padding: 50px;
   line-height: 40px;
@@ -29,14 +30,14 @@
 /* bio hover  */
 .about .bio:hover {
   color: #0a4b6e;
-  text-align: center;
+  
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: bolder;
   line-height: normal;
   padding: 50px;
   line-height: 40px;
-  transform: scale(1.1);
+  
 }
 
 /* Mobile Styles */
