@@ -13,10 +13,11 @@ nav {
   position: fixed;
   width: 100%;
   padding: 20px 0;
-  z-index: 998;
+  z-index: 90000000;
   transition: all 0.3s ease;
   font-family: Helvetica, sans-serif;
   color: #15587d;
+  
 }
 nav .navbar {
   width: 90%;
@@ -132,6 +133,22 @@ a
   background-color: #fff;
   color: #15587d;
 }
+.work
+{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #15587d;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+  
+  
+}
+
 /* tagline  styling */
 .tagline {
   position: absolute;

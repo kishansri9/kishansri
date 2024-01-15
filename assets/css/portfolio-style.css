@@ -11,7 +11,8 @@
   display: none;
 }
 div.card {
-  border: 1px solid #15587d;
+  border: 1px solid #b1dff8;
+  border-radius: 10px;
   padding: 10px;
   text-align: center;
   height: 350px;
